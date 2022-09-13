@@ -1,0 +1,89 @@
+.questions {
+  margin-top: 200px;
+}
+
+.questions .q-a {
+  width: 39%;
+  margin: 50px auto;
+}
+
+.questions .question .question-info h2 {
+  text-transform: capitalize;
+  font-size: 28px;
+  color: var(--dark-blue-color);
+  transition: color var(--main-transition);
+}
+
+.questions .question .question-info h2:hover {
+  color: var(--orange-color);
+}
+
+.questions .question .question-info svg {
+  font-weight: bold;
+  font-size: 23px;
+  cursor: pointer;
+}
+
+.questions .question .question-info .down {
+  color: var(--soft-blue-color);
+}
+
+.questions .question .question-info .up {
+  color: var(--orange-color);
+}
+
+.questions .question .question-answer {
+  color: var(--dark-white-color);
+  margin-top: 20px;
+}
+
+.questions .more-info-btn button {
+  background-color: var(--soft-blue-color);
+  color: #fff;
+  border: 2px solid var(--soft-blue-color);
+  transition: all var(--main-transition);
+}
+
+.questions .more-info-btn button:hover {
+  background-color: transparent;
+  color: var(--soft-blue-color);
+}
+
+/* Start Media Queries  */
+@media (max-width: 967.999px) {
+  .info {
+    width: 90%;
+  }
+
+  .questions {
+    margin-top: 150px;
+  }
+
+  .questions .q-a {
+    width: 95%;
+  }
+
+  .questions .question .question-info h2 {
+    font-size: 23px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991.999px) {
+  .info {
+    width: 55%;
+  }
+
+  .questions {
+    margin-top: 150px;
+  }
+
+  .questions .q-a {
+    width: 75%;
+  }
+}
+
+@media (min-width: 992px) and (max-width: 1400px) {
+  .questions .q-a {
+    width: 60%;
+  }
+}

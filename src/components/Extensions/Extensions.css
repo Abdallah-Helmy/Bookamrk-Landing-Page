@@ -1,0 +1,84 @@
+.extensions {
+  margin-top: 200px;
+}
+
+.extensions .cards .card {
+  padding: 20px 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border: none;
+}
+
+.extensions .cards .card img {
+  width: 89px;
+  margin: auto;
+}
+
+.extensions .cards .card h3 {
+  text-transform: capitalize;
+  color: var(--dark-blue-color);
+  margin-top: 15px;
+}
+
+.extensions .cards .card p {
+  text-transform: capitalize;
+  color: var(--dark-white-color);
+  margin-bottom: 60px;
+}
+
+.extensions .cards .card button {
+  text-transform: capitalize;
+  background-color: var(--soft-blue-color);
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 0px;
+  border: 2px solid var(--soft-blue-color);
+  transition: all var(--main-transition);
+}
+
+.extensions .cards .card button:hover {
+  background-color: transparent;
+  color: var(--soft-blue-color);
+}
+
+/* Start Media Queries   */
+@media (max-width: 399.99px) {
+  .info {
+    width: 90%;
+  }
+
+  .info h2 {
+    font-size: 22px;
+  }
+
+  .extensions {
+    margin-top: 150px;
+  }
+
+  .cards .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 400px) and (max-width: 619.999px) {
+  .info {
+    width: 90%;
+  }
+
+  .extensions {
+    margin-top: 150px;
+  }
+
+  .cards .card {
+    margin-bottom: 20px;
+  }
+}
+
+@media (min-width: 620px) and (max-width: 905px) {
+  .info {
+    width: 60%;
+  }
+
+  .cards .card {
+    margin-bottom: 20px;
+  }
+}

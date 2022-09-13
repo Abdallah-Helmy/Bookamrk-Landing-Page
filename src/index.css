@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&family=Cairo:wght@300;400;700;800&family=Raleway:ital,wght@0,400;0,700;1,400;1,700&family=Rubik:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Rubik', sans-serif !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: 'Rubik', sans-serif !important;
+}
+
+#root {
+  overflow: hidden;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+:root {
+  --main-letter-spacing: 1.1px;
+  --orange-color: hsl(0, 94%, 66%);
+  --soft-blue-color: hsl(231, 69%, 60%);
+  --dark-blue-color: hsl(229, 31%, 21%);
+  --dark-white-color: hsl(229, 8%, 60%);
+  --main-transition: 0.3s ease;
+}
+
+.info {
+  width: 40%;
+  margin: auto;
+  text-align: center;
+}
+
+.info h2 {
+  color: var(--dark-blue-color);
+  text-transform: capitalize;
+}
+
+.info p {
+  color: var(--dark-white-color);
+}
